@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calcultate</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./calcultate.css" />
+    <script src="./calculate.js" defer></script>
+  </head>
+  <body>
+    <h1>calcultate</h1>
+    <div class="calculator">
+        <div class="equation"></div>
+        <div class="buttons">
+            <!-- 첫번째 줄 -->
+            <button class="button" id="icon" data-value="C"><i class="fa-solid fa-broom"></i></button>
+            <!-- all clear 아이콘 X(대체) -->
+            <button class="button" id="icon" data-value="+/-"><i class="fa-solid fa-plus-minus"></i></button>
+            <button class="button" id="icon" data-value="%"><i class="fa-solid fa-percent"></i></button>
+            <button class="button" id="icon" data-value="/"><i class="fa-solid fa-divide"></i></button>
+            <!-- 두번째 줄 -->
+            <button class="button" data-value="1">1</button>
+            <button class="button" data-value="2">2</button>
+            <button class="button" data-value="3">3</button>
+            <button class="button" id="icon" data-value="*"><i class="fa-solid fa-xmark"></i></button>
+            <!-- 세번째 줄 -->
+            <button class="button" data-value="4">4</button>
+            <button class="button" data-value="5">5</button>
+            <button class="button" data-value="6">6</button>
+            <button class="button" id="icon" data-value="+"><i class="fa-solid fa-plus"></i></button>
+            <!-- 네번째 줄 -->
+            <button class="button" data-value="7">7</button>
+            <button class="button" data-value="8">8</button>
+            <button class="button" data-value="9">9</button>
+            <button class="button" id="icon" data-value="-"><i class="fa-solid fa-minus"></i></button>
+            <!-- 다섯번째 줄 -->
+            <button class="button"><i class="fa-regular fa-face-smile"></i></button>
+            <button class="button" data-value="0">0</button>
+            <button class="button" data-value=".">.</button>
+            <button class="button" id="icon" data-value="="><i class="fa-solid fa-equals"></i></button>
+          </div>
+        </div>
+    </div>
+  </body>
+</html>
